@@ -1,0 +1,385 @@
+
+body{
+    height: 100%;
+}
+.bg-image{ 
+    background-image: url(../img/page-background@2x.avif);
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+.mycontainer{
+    width: 96%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header2{
+    
+}
+
+.navbar{
+ 
+}
+.nav-right{
+   
+}
+
+.header{
+    .above-header{
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(144, 144, 144, 0.52);
+        }
+
+    
+    .wrapper{
+        margin-top: 20px;
+        .navigation{
+
+            .logo{
+                
+            }
+
+            .left-nav{
+                .left-nav-ul{
+                    .left-nav-text{
+                        font-weight: bold;
+
+                    }
+
+                }
+
+            }
+            .right-nav{
+                .right-nav-ul{
+                    .right-nav-text{font-weight: bold;
+
+                    }
+                }
+
+            }
+            .get-start{
+
+            }
+        }
+
+    }
+}
+.hero{
+    .wrapper{
+        .upper{
+            padding-top: 100px;
+            margin: 0% auto;
+            h1{
+                font-size: 50px;
+                font-weight: bold;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+        }
+        .down{
+            margin: 0% auto;
+
+            h2{
+                padding-top:30px;
+                font-size: 30px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+        }
+
+    }
+}
+   
+
+    .big-img{
+        width: 100%;
+    min-height: 410px;
+    object-position: bottom right;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.long-box{
+    backdrop-filter: blur(40px);
+    background-color: hsla(0,0%,100%,.64);
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 0px;
+    
+  
+    .mian-wrapper{
+        margin-top: 70px;
+        border-radius: 15px;
+        height: auto;
+
+        
+        .first-wrapper{
+        border-radius: 15px;
+
+
+            .left{
+                border-radius: 15px;
+
+                overflow: hidden;
+                .big-img{
+                    width: 100%;
+                    min-height: 410px;
+                    object-position: top right;
+                    object-fit: cover;
+                    max-height: 500px;
+                }
+
+
+
+            }
+             .right{
+                .gray-back{
+                    margin-top: 60px;
+
+                    background-color: rgba(147, 147, 147, 0.311);
+                    border-radius: 10px;
+
+
+                    .foreditors{
+                        font-size: 12px;
+                        margin: 0 auto;
+                    }
+                }
+                .under-gray{
+                    h2{
+                        font-size: 25px;
+                        font-weight: bold;
+                        padding-top: 30px;
+                    }
+                    img{
+                        margin-top: 20px;
+                        margin-right: 20px;
+                        height: 60px;
+                    }
+
+                    p{
+                        font-size: 17px;
+                        line-height: 25px;
+                        padding-top: 20px;
+                        width: 90%;
+                    }
+                    .atag{
+                        font-size: 17px;
+                        font-weight: bold;
+                    }
+
+                    
+                
+
+                        
+                }
+
+             }
+            
+
+        }
+
+
+        .second-wrapper{
+            border-top: 1px solid rgba(190, 190, 190, 0.489);
+            border-bottom: 1px solid rgba(190, 190, 190, 0.489);
+            justify-content: space-between;
+            overflow: hidden;
+
+            .left{
+                padding-left: 25px;
+                .gray-back{
+                    margin-top: 60px;
+
+                    background-color: rgba(147, 147, 147, 0.311);
+                    border-radius: 10px;
+
+
+                    .foreditors{
+                        font-size: 12px;
+                        margin: 0 auto;
+                    }
+                }
+                
+            .under-gray{
+                h2{
+                    font-size: 25px;
+                    font-weight: bold;
+                    padding-top: 30px;
+                }
+                img{
+                    margin-top: 20px;
+                    margin-right: 20px;
+                                }
+
+                p{
+                    font-size: 17px;
+                    line-height: 25px;
+                    padding-top: 30px;
+                    width: 90%;
+                }
+                .atag{
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+            }
+            }
+            .right{
+                display: flex;
+                flex-direction: column-reverse;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    min-height: 410px;
+                    object-position: bottom left;
+                    object-fit: cover;
+                    max-height: 500px;
+                }
+            }
+
+
+        }
+
+
+
+        .third-wrapper{
+            margin-top: 30px;
+            vertical-align: none;
+            
+
+    
+    
+                .left{
+                    border-radius: 15px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    .big-img{
+                        width: 100%;
+                    min-height: 410px;
+                    object-position: bottom right;
+                    object-fit: cover;
+                    max-height: 500px;
+                }
+                    }
+    
+                }
+    
+                }
+                 .right{
+                    .gray-back{
+                        margin-top: 60px;
+    
+                        background-color: rgba(147, 147, 147, 0.311);
+                        border-radius: 10px;
+    
+    
+                        .foreditors{
+                            font-size: 12px;
+                            margin: 0 auto;
+                        }
+                    }
+                    .under-gray{
+                        h2{
+                            font-size: 25px;
+                            font-weight: bold;
+                            padding-top: 30px;
+                        }
+                        
+    
+                        p{
+                            font-size: 17px;
+                            line-height: 25px;
+                            padding-top: 20px;
+                            width: 90%;
+                        }
+                        button{
+                            margin-top: 20px;
+                            margin-bottom: 30px;
+                        }
+    
+                        
+                    
+    
+                            
+                    }
+    
+                 }
+                
+    
+            }
+    }
+
+.under-wrapper{
+    border-bottom: 1px solid rgba(121, 121, 121, 0.416);
+    margin-top: 50px;
+    .left{
+        h4{
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 30px;
+
+        }
+        p{
+            line-height: 25px;
+        }
+
+
+    }
+    .right{
+        .form-check{
+            display: flex;
+            justify-content: flex-start;
+
+
+        }
+    }
+
+
+}
+
+@media (max-width: 800px){
+    .upper{
+        width: 90%;
+    }
+    .down{
+        width: 90%;
+    }
+    .font800{
+        line-height: 25px;
+    }
+}
+
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .box{
+        
+         h3{
+            margin-top: 50px;
+
+             font-size: 20px;
+             font-weight: bold;
+             margin-bottom: 20px;
+               }
+         p{
+             line-height: 25px;
+             
+         }
+    }
+    
+}
+
+
+.last-wrapper{
+    margin: 150px 0 100px 0;
+    .left{
+        padding-bottom: 10px;
+    }
+}

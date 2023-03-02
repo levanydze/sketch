@@ -1,0 +1,112 @@
+@media (max-width:1000px){
+    .under-wrapper{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+        .left{
+            width: 100%;
+        }
+        .right{
+            width: 100%;
+            max-width: 400px;
+        }
+    }
+
+}
+
+@media (max-width: 1000px){
+    .header{
+        display: none;
+    }
+}
+
+
+@media (min-width: 1000px){
+    .header2{
+        display: none;
+    }
+}
+
+
+@media (max-width: 430px){
+    .footer-wrapper {
+        justify-content: start;
+         flex-flow: column;
+    }
+}
+
+
+@media (max-width: 600px){
+  
+
+    .small-img{
+        display: none;
+    }
+    
+
+    .long-box{
+        .mian-wrapper{
+            .first-wrapper{ 
+
+                flex-direction: column-reverse;
+                .left{
+                    width: 80%;
+                    margin-top: 30px;
+                    .big-img{
+                        
+
+                    }
+
+                }
+                .right{
+                    width: 90%;
+                    margin: 0 auto;
+                    text-align: center;
+                    .gray-back{
+                        .foreditors{
+
+                        }
+                    }
+                    .under-gray{
+                        .bolooo {
+
+                            .bolo-img{
+                            }
+                        }
+                    }
+                }
+            }
+            .second-wrapper{
+                flex-direction: column;
+                .left{
+                    width: 90%;
+                    margin: 0 auto;
+                    text-align: center;
+                    
+                }
+                .right{
+                    flex-direction: row-reverse;
+                    width: 100%;
+                    margin-left: 100px;
+                }
+
+            }
+            .third-wrapper{
+                flex-direction: column-reverse;
+                .right{
+                    width: 90%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                .left{
+                    width: 80%;
+                }
+
+            }
+        }
+    }
+
+
+
+}
+
